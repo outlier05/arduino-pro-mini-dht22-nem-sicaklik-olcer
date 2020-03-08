@@ -34,10 +34,11 @@ void setup() {
 }
 
 void loop() {
+  delay(1000);
   ust_kisim();
   higro_termo();
   delay(500);
-  for (unsigned int i = 0; i < 4; i++) {
+  for (unsigned int i = 0; i < 7; i++) {
     LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF);
   }
   delay(2000);

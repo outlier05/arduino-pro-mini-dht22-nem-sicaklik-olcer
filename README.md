@@ -1,3 +1,4 @@
 # arduino-pro-mini-dht22-nem-sicaklik-olcer
-Merhaba, taşınabilir bir termometre ve higrometre yapacağım.
+Taşınabilir, kablosuz termometre ve higrometre(nem ölçer) projesidir.
+
 
